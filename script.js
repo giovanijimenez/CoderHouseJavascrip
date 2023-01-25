@@ -13,3 +13,8 @@ if(productoUno == 1){
 }else{
     console.log("No agregaste");
 }
+
+
+let MuestraTres = document.getElementById ("#pTres");
+
+console.log(MuestraTres);
