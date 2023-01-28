@@ -1,20 +1,17 @@
-let productoUno = prompt("Producto Uno");
-let productoDos = ("Producto Dos");
-let productoTres = document.getElementById (console.log("Funciona DOM"));
+let serieTres = document.getElementById ("serieTres");
+let teramont = document.getElementById ("teramont");
+let mustang = document.getElementById ("mustang");
 
-console.log("FUNCIONA");
-
-if(productoUno == 1){
-    console.log("Añadiste producto 1");
-}else if (productoDos == 2){
-    console.log("Añadiste producto 2");
-}else if (prductoTres == 3){
-    console.log("añadiste prducto 3");
-}else{
-    console.log("No agregaste");
-}
+serieTres.onclick = () => {console.log("agregaste BMW serie Tres"); alert("Agregaste bmw")}
+teramont.onclick = () => {console.log("agregaste VW teramont");}
+mustang.onclick = () => {console.log("agregaste Ford mustang")}
 
 
-let MuestraTres = document.getElementById ("#pTres");
+console.log(serieTres.innerHTML);
 
-console.log(MuestraTres);
+let sleccionAuto = document.getElementById("seleccionado");
+console.log(seleccionado.innerHTML);
+
+//Cambio seleccion
+seleccionado.innerHTML = "serieTres"
+console.log(seleccionado.innerHTML);
