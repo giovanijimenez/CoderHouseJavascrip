@@ -1,0 +1,18 @@
+[
+    {
+        "modelo": "Serie 3",
+        "año": 2023,
+        "color": "Rojo",
+        "inventario":5
+
+    },
+    {
+        "modelo": "Teramont VW",
+        "año": 2023,
+        "color": "Gris",
+        "inventario":5
+
+    }
+
+
+]
